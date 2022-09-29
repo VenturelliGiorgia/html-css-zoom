@@ -6,9 +6,10 @@
 
 .container {
     width: 99.2vw;
+    background-color: black;
 }
 
-nav {
+.nav-header nav {
     text-align: right;
     background-color: black;
     padding-bottom: 2rem;
@@ -21,4 +22,39 @@ nav {
     border: none;
     background-color: rgb(74 74 74);
     padding: .3rem;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 90px;
+
+}
+
+img {
+    width: 165px;
+
+}
+
+.card {
+    position: relative;
+    padding: 0 2px;
+}
+
+.text-container {
+    color: white;
+    display: inline;
+    font-size: 12px;
+    background-color: grey;
+    opacity: 0.6;
+    padding: 0.2rem;
+    position: absolute;
+    bottom: 4px;
+    left: 2px;
+}
+.nav-footer{
+    display: flex;
+}
+.nav-footer nav {
+    background-color: rgb(34 34 34);
 }
