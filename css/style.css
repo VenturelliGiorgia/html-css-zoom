@@ -37,8 +37,11 @@
     display: flex;
     flex-wrap: wrap;
     flex-grow: 1;
-    flex-grow: 1;
-    margin: 0 89px;
+    /*max-width: 920px;
+    margin: 0 auto;
+    /*padding: 0 89px;*/
+    width: 90%;
+    margin: 0 auto;
     overflow: auto;
 }
 
